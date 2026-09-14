@@ -1,11 +1,11 @@
 package funcionalidad;
 
-public class persona {
+public abstract class Persona {
     protected String nombre;
     protected String documento;
     protected int edad;
 
-    public persona(String nombre, String documento, int edad) {
+    public Persona(String nombre, String documento, int edad) {
         setNombre(nombre);
         setDocumento(documento);
         setEdad(edad);
